@@ -1,0 +1,2 @@
+alert ip 119.250.122.109 any -> $HOME_NET any (msg:"ICTI-ADS: Sidewinder IP detected"; sid:1000000; rev:1;)
+alert dns any any -> any any (msg:"ICTI-ADS: Sidewinder domain phishing_880.com"; dns.query; content:"phishing_880.com"; sid:1000001; rev:1;)

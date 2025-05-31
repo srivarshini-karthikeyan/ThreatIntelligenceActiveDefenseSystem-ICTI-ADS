@@ -1,0 +1,19 @@
+[
+  {
+    "id": "TI-20250531-3374",
+    "source": "ICTI-ADS Intelligence",
+    "threat_type": "Credential Harvesting",
+    "severity": 10,
+    "target_sector": "China Infrastructure",
+    "origin_country": "India",
+    "indicators": [
+      "backdoor_e9d36f80.dll",
+      "119.250.122.109",
+      "phishing_880.com"
+    ],
+    "description": "Sidewinder targeting China Infrastructure with zero-day exploit",
+    "timestamp": "2025-05-31T23:45:20.191831",
+    "attribution": "Sidewinder",
+    "mitigation": "Block indicators, monitor system logs"
+  }
+]

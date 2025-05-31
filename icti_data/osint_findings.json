@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-05-31T23:58:06.365425",
+    "source": "Dark Web Forum",
+    "type": "Credential Leak",
+    "domain": "power-grid.in",
+    "severity": "HIGH",
+    "description": "Leaked credentials found for irctc.co.in",
+    "indicators": [
+      "leak_4392.txt",
+      "556 credentials exposed"
+    ]
+  },
+  {
+    "timestamp": "2025-05-31T23:58:06.365425",
+    "source": "Dark Web Forum",
+    "type": "Credential Leak",
+    "domain": "sbi.co.in",
+    "severity": "HIGH",
+    "description": "Leaked credentials found for uidai-gov.in",
+    "indicators": [
+      "leak_4270.txt",
+      "431 credentials exposed"
+    ]
+  },
+  {
+    "timestamp": "2025-05-31T23:58:06.365425",
+    "source": "Dark Web Forum",
+    "type": "Credential Leak",
+    "domain": "nic-india.in",
+    "severity": "CRITICAL",
+    "description": "Leaked credentials found for uidai-gov.in",
+    "indicators": [
+      "leak_8159.txt",
+      "564 credentials exposed"
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T00:04:18.890508",
+    "source": "Dark Web Forum",
+    "type": "Credential Leak",
+    "domain": "uidai-gov.in",
+    "severity": "HIGH",
+    "description": "Leaked credentials found for defense-portal.in",
+    "indicators": [
+      "leak_9030.txt",
+      "399 credentials exposed"
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T00:04:18.891511",
+    "source": "Dark Web Forum",
+    "type": "Credential Leak",
+    "domain": "sbi.co.in",
+    "severity": "CRITICAL",
+    "description": "Leaked credentials found for irctc.co.in",
+    "indicators": [
+      "leak_1855.txt",
+      "231 credentials exposed"
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T00:04:18.891511",
+    "source": "Dark Web Forum",
+    "type": "Credential Leak",
+    "domain": "power-grid.in",
+    "severity": "HIGH",
+    "description": "Leaked credentials found for railway-booking.in",
+    "indicators": [
+      "leak_4332.txt",
+      "889 credentials exposed"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "framework": "IT_Act_2000",
+  "reporting_period": "2025-05-01 to 2025-05-31",
+  "summary": {
+    "total_incidents": 0,
+    "critical_incidents": 0,
+    "threat_intelligence_reports": 1,
+    "malware_analysis_completed": 1,
+    "compliance_status": "Compliant"
+  },
+  "incident_categories": {},
+  "threat_landscape": {
+    "total_threats": 1,
+    "apt_threats": 1,
+    "high_severity": 1,
+    "top_origins": {
+      "India": 1
+    }
+  },
+  "security_measures": {
+    "honeypot_deployment": "Active",
+    "threat_monitoring": "24/7",
+    "malware_analysis": "Automated",
+    "incident_response": "Automated + Manual"
+  },
+  "recommendations": [
+    "Continue proactive threat monitoring",
+    "Enhance incident response capabilities",
+    "Regular security awareness training",
+    "Update threat intelligence feeds"
+  ],
+  "next_review_date": "2025-08-29",
+  "generated_at": "2025-05-31T23:45:36.661074"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "HP-20250531-1946",
+    "honeypot_type": "telecom_switch",
+    "source_ip": "103.255.254.86",
+    "target_port": 8084,
+    "payload": "Attack payload targeting Telecom Switch Interface",
+    "timestamp": "2025-05-31T23:45:20.194885",
+    "geolocation": {
+      "country": "Pakistan",
+      "city": "Unknown"
+    },
+    "attack_pattern": "buffer_overflow",
+    "severity": 6
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "NS-20250531-7599",
+    "scan_type": "port_scan",
+    "source_ip": "252.136.205.232",
+    "target_range": "Indian Critical Infrastructure",
+    "ports_scanned": [
+      25,
+      995,
+      80
+    ],
+    "timestamp": "2025-05-31T23:45:20.203840",
+    "severity": 8,
+    "blocked": true
+  }
+]

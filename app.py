@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-India-Centric Threat Intelligence and Active Defense System (ICTI-ADS)
-Advanced Cybersecurity Platform for Nation-State Threat Detection
-Author: Security Research Team
-Version: 2.0.0
-"""
-
 import json
 import time
 import threading

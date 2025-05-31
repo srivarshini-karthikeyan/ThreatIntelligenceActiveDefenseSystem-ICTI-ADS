@@ -1,0 +1,66 @@
+2025-05-31 23:58:06,348 - ICTI-ADS - INFO - Initializing ICTI-ADS System...
+2025-05-31 23:58:06,352 - ICTI-ADS - INFO - Started SSH honeypot on port 22
+2025-05-31 23:58:06,354 - ICTI-ADS - INFO - Started HTTP honeypot on port 80
+2025-05-31 23:58:06,357 - ICTI-ADS - INFO - Started Telnet honeypot on port 23
+2025-05-31 23:58:06,358 - ICTI-ADS - INFO - Started HTTPS honeypot on port 443
+2025-05-31 23:58:06,359 - ICTI-ADS - INFO - Started Modbus honeypot on port 502
+2025-05-31 23:58:06,365 - ICTI-ADS - INFO - Collected 5 threat intelligence entries
+2025-05-31 23:58:06,367 - ICTI-ADS - INFO - OSINT collection complete: 3 total findings
+2025-05-31 23:58:06,367 - ICTI-ADS - INFO - ICTI-ADS System initialized successfully!
+2025-05-31 23:58:06,368 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-05-31 23:58:06,372 - ICTI-ADS - INFO - Collected 10 threat intelligence entries
+2025-05-31 23:58:06,375 - ICTI-ADS - INFO - Analysis cycle completed
+2025-05-31 23:58:36,382 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-05-31 23:58:36,389 - ICTI-ADS - INFO - Collected 15 threat intelligence entries
+2025-05-31 23:58:36,394 - ICTI-ADS - INFO - Analysis cycle completed
+2025-05-31 23:59:06,396 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-05-31 23:59:06,401 - ICTI-ADS - INFO - Collected 20 threat intelligence entries
+2025-05-31 23:59:06,407 - ICTI-ADS - INFO - Analysis cycle completed
+2025-05-31 23:59:36,413 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-05-31 23:59:36,420 - ICTI-ADS - INFO - Collected 25 threat intelligence entries
+2025-05-31 23:59:36,429 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:00:06,430 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:00:06,436 - ICTI-ADS - INFO - Collected 30 threat intelligence entries
+2025-06-01 00:00:06,440 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:00:36,442 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:00:36,449 - ICTI-ADS - INFO - Collected 35 threat intelligence entries
+2025-06-01 00:00:36,452 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:01:06,463 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:01:06,469 - ICTI-ADS - INFO - Collected 40 threat intelligence entries
+2025-06-01 00:01:06,475 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:01:36,476 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:01:36,484 - ICTI-ADS - INFO - Collected 45 threat intelligence entries
+2025-06-01 00:01:36,490 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:02:06,522 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:02:06,572 - ICTI-ADS - INFO - Collected 50 threat intelligence entries
+2025-06-01 00:02:06,583 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:02:36,590 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:02:36,632 - ICTI-ADS - INFO - Collected 55 threat intelligence entries
+2025-06-01 00:02:36,642 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:02:36,662 - ICTI-ADS - INFO - Generated threat bulletin: threat_bulletin_2025-06-01.md
+2025-06-01 00:03:06,664 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:03:06,674 - ICTI-ADS - INFO - Collected 60 threat intelligence entries
+2025-06-01 00:03:06,680 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:03:36,682 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:03:36,690 - ICTI-ADS - INFO - Collected 65 threat intelligence entries
+2025-06-01 00:03:36,700 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:04:06,705 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:04:06,712 - ICTI-ADS - INFO - Collected 70 threat intelligence entries
+2025-06-01 00:04:06,717 - ICTI-ADS - INFO - Analysis cycle completed
+2025-06-01 00:04:18,866 - ICTI-ADS - INFO - Initializing ICTI-ADS System...
+2025-06-01 00:04:18,872 - ICTI-ADS - INFO - Started SSH honeypot on port 22
+2025-06-01 00:04:18,874 - ICTI-ADS - INFO - Started HTTP honeypot on port 80
+2025-06-01 00:04:18,878 - ICTI-ADS - ERROR - Error in HTTP honeypot: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-06-01 00:04:18,879 - ICTI-ADS - ERROR - Error in SSH honeypot: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-06-01 00:04:18,879 - ICTI-ADS - INFO - Started Telnet honeypot on port 23
+2025-06-01 00:04:18,880 - ICTI-ADS - ERROR - Error in Telnet honeypot: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-06-01 00:04:18,881 - ICTI-ADS - INFO - Started HTTPS honeypot on port 443
+2025-06-01 00:04:18,881 - ICTI-ADS - ERROR - Error in HTTPS honeypot: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-06-01 00:04:18,882 - ICTI-ADS - INFO - Started Modbus honeypot on port 502
+2025-06-01 00:04:18,884 - ICTI-ADS - ERROR - Error in Modbus honeypot: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-06-01 00:04:18,890 - ICTI-ADS - INFO - Collected 75 threat intelligence entries
+2025-06-01 00:04:18,893 - ICTI-ADS - INFO - OSINT collection complete: 6 total findings
+2025-06-01 00:04:18,893 - ICTI-ADS - INFO - ICTI-ADS System initialized successfully!
+2025-06-01 00:04:18,894 - ICTI-ADS - INFO - Starting ICTI-ADS analysis cycle...
+2025-06-01 00:04:18,903 - ICTI-ADS - INFO - Collected 80 threat intelligence entries
+2025-06-01 00:04:18,908 - ICTI-ADS - INFO - Analysis cycle completed

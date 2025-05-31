@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICTI-ADS Dashboard</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 20px; background: #0f1419; color: #fff; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .header h1 { color: #ff6b35; margin: 0; font-size: 2.5em; }
+        .header p { color: #8892b0; margin: 5px 0; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .stat-card { background: #1a1f2e; padding: 20px; border-radius: 10px; border-left: 4px solid #ff6b35; }
+        .stat-card h3 { margin: 0 0 10px 0; color: #64ffda; }
+        .stat-card .number { font-size: 2em; font-weight: bold; color: #fff; }
+        .chart-container { background: #1a1f2e; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+        .alert-high { border-left-color: #ff4757; }
+        .alert-medium { border-left-color: #ffa502; }
+        .alert-low { border-left-color: #2ed573; }
+        .threat-list { background: #1a1f2e; padding: 20px; border-radius: 10px; }
+        .threat-item { padding: 10px; border-bottom: 1px solid #2c3e50; }
+        .threat-item:last-child { border-bottom: none; }
+        .severity-high { color: #ff4757; }
+        .severity-medium { color: #ffa502; }
+        .severity-low { color: #2ed573; }
+        .country-stat { margin: 5px 0; }
+        .progress-bar { background: #2c3e50; height: 20px; border-radius: 10px; overflow: hidden; margin: 5px 0; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, #ff6b35, #64ffda); }
+        .status-active { color: #2ed573; }
+        .timestamp { color: #8892b0; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🛡️ ICTI-ADS Dashboard</h1>
+        <p>India-Centric Threat Intelligence and Active Defense System</p>
+        <p class="timestamp">Last Updated: 2025-05-31T23:45:59.440273</p>
+    </div>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>🎯 Active Threats</h3>
+            <div class="number">1</div>
+        </div>
+        <div class="stat-card">
+            <h3>🍯 Honeypot Events</h3>
+            <div class="number">1</div>
+        </div>
+        <div class="stat-card">
+            <h3>⚠️ Active Alerts</h3>
+            <div class="number">0</div>
+        </div>
+        <div class="stat-card">
+            <h3>🦠 Malware Samples</h3>
+            <div class="number">1</div>
+        </div>
+        <div class="stat-card">
+            <h3>🔧 System Status</h3>
+            <div class="number status-active">Active</div>
+        </div>
+    </div>
+    
+    <div class="chart-container">
+        <h3>🌍 Threat Origins (Last 24 Hours)</h3>
+        <div class="country-stat"><strong>India:</strong> 1 threats<div class="progress-bar"><div class="progress-fill" style="width: 10%"></div></div></div>
+    </div>
+    
+    <div class="chart-container">
+        <h3>🎯 Targeted Honeypots</h3>
+        <div class="country-stat"><strong>Telecom Switch:</strong> 1 attacks<div class="progress-bar"><div class="progress-fill" style="width: 5%"></div></div></div>
+    </div>
+    
+    <div class="threat-list">
+        <h3>🚨 Recent High-Severity Threats</h3>
+        <div class="threat-item"><strong class="severity-high">[10/10]</strong> Sidewinder - Credential Harvesting<br><small class="timestamp">China Infrastructure | 2025-05-31T23:45:20.191831</small></div>
+    </div>
+    
+    <div class="threat-list">
+        <h3>📢 Recent Alerts</h3>
+        
+    </div>
+</body>
+</html>
